@@ -1,6 +1,7 @@
-# include <iostream> 
+# include <iostream>
+# include <arcades/arcades.hxx>
 
 int main() {
-    std::cout << "let's play!\n";
+    std::cout << "arcades version: " << arcades::get_version();
     return 0;
 }
